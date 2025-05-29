@@ -1,0 +1,28 @@
+/* Type Selector, select all elements of the given element type*/
+p {
+    background-color: #ffa7a7;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+/* ID Selector, elements can only have one ID selects an element w/ the given ID*
+    - Cannot be repeated on a single page and should not contain any whitespace */
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+/* Class Selector, select all elements with the given class*/
+.bigger {
+    font-size: 24px; 
+}
+
+#fourth {
+    background-color: #80ff80;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* A common pitfall -> people overusing the ID attribute when classes will suffice
+    Use ID for specificity or having links redirect to a section on current page
+    - should use IDs sparingly (if at all)
+*/
