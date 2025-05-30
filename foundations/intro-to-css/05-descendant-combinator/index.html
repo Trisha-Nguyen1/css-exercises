@@ -9,13 +9,27 @@
   </head>
   <body>
     <div class="container">
-      <p class="text">This should be styled.</p>
+      <!-- <p class="text">This should be styled.</p> -->
+      <p id="text">This should be styled.</p>
     </div>
     <p class="text">This should be unstyled.</p>
-    <p class="text">This should be unstyled.</p>
+    <!-- <p class="text">This should be unstyled.</p> -->
+    <p id="text">This should be unstyled.</p>
     <div class="container">
-      <p class="text">This should be styled.</p>
-      <p class="text">This should be styled.</p>
+      <!-- <p class="text">This should be styled.</p> -->
+      <p id="text">This should be styled.</p>
+      <!-- <p class="text">This should be styled.</p> -->
+      <p id="text">This should be styled.</p>
     </div>
   </body>
 </html>
+<!--  
+ The HTML file is set up (so no need to edit anything in it) 
+ such that any combination of selectors will work, 
+ so if you're feeling adventurous you can even try combining 
+ a type *and* class selector for the descendant combinator.
+
+The properties you need to add are:
+
+* Only the `p` elements that are descendants of the `div` element should 
+have a yellow background, red text, a font size of 20px, and center aligned. -->

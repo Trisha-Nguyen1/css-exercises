@@ -1,0 +1,11 @@
+/* Combinators, relationship between combination of selectors
+    - Descendant combinator w/ single space between selectors 
+        text only selected if it is nested inside container */
+
+.container #text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
