@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+
+/* Chaining Selectors, chaining as a list without any seperation 
+    - selects any elements w/ both classes */
+.avatar.proportioned {
+    width: 300px;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+/* Note:
+    - Can chain a class and an ID
+    - Can't chain more than one type selector since elements can't
+        be two diff types at once ex: divp */
