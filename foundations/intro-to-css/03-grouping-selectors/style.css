@@ -1,0 +1,22 @@
+/* The Grouping Selector
+    - Black & Yellow share size, font then each have their own unique declarations */
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black
+.yellow {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+/* .both { 
+    size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}*/
