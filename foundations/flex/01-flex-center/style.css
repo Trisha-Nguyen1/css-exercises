@@ -3,6 +3,9 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -13,3 +16,16 @@
   width: 80px;
   height: 80px;
 }
+
+/* 1. display: flex; 
+  - Activates FLexBox for that container, now any element that lives directly inside 
+    of the container is a flex item  
+    
+   2. justify-content
+   - Controls alignment along the main axis (ex: horizontal for row & vertical for column)
+    
+   3. align-items 
+   - Controls alignment along the cross axis (ex: vertical for row & horizontal for column)
+    
+    
+    */
